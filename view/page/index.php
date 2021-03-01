@@ -31,6 +31,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row m-3">
+                        <div class="col">
+                            <div>
+                                Redirects count: <?php echo $link->getRedirectsCount(); ?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             <?php endforeach; ?>
         <? endif; ?>
