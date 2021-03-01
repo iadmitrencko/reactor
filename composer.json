@@ -1,0 +1,21 @@
+{
+    "name":     "igord/work_ua",
+    "authors":  [
+        {
+            "name":  "Igor Dmitrenko",
+            "email": "igord.dmitrenko@gmail.com"
+        }
+    ],
+    "require":  {
+        "ext-mongodb":                  "*",
+        "symfony/dependency-injection": "^4.3",
+        "symfony/config":               "^4.3",
+        "doctrine/mongodb-odm":         "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Project\\": "src/",
+            "Core\\":    "core/"
+        }
+    }
+}
